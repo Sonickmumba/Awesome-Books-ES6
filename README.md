@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-Check **Live Demo** [here.](https://sonickmumba.github.io/My-Portfolio/)
+Check **Live Demo** [here.](https://sonickmumba.github.io/Awesome-Books-ES6/)
 
 ## Getting Started
 
