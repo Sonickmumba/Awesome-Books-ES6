@@ -1,4 +1,3 @@
-/* eslint-disable */
 import Book from './books.js';
 
 export const displayBooks = (object) => `<li class="${object.author}">

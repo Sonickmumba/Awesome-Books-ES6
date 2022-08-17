@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { displayBooks } from './bookActions.js';
 
 let bookShelf = [];
