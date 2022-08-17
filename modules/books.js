@@ -1,4 +1,4 @@
-import { displayBooks } from './bookActions.js';
+import displayBooks from './bookActions.js';
 
 let bookShelf = [];
 
