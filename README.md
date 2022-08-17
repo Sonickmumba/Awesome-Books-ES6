@@ -1,75 +1,89 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books: with ES6
 
-> Description the project.
-
+> In this project, I restructure my Awesome books app code. The goal is to make it more organized by using modules. I will also practice the ES6 syntax that I have learned, Use ES6 modules to write modular JavaScript and Use npm as software packages system.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML and CSS
+- Frameworks: N/A
+- Technologies used: GIT, GITHUB, LINTERS
+- npm
+- Luxon library
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+Check **Live Demo** [here.](https://sonickmumba.github.io/Awesome-Books-ES6/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+> To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- npm (node package manager) – to be able to install packages locally.
+- A github Account – to be able to use github actions.
+
 ### Setup
 
+- Open the terminal.
+- Run cd \path\to\where\you\want\your\local\copy
+- Clone the repo
+   i. Run git@github.com:Sonickmumba/My-Portfolio.git
+   ii. Run cd README/
+
 ### Install
+
+- install Webhint linter
+    i. Run npm install --save-dev hint@6.x
+
+- install Stylelint linter
+    i. Run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+- install ESLint linter
+    i. Run npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+
+- install gulp
+    i. Run touch gulpfile.js
+    ii. Run npm install gulp --save-dev
+    iii. Run npm install gulp-autoprefixer --save-dev
 
 ### Usage
 
 ### Run tests
 
+- run Webhint linter
+    - Run npx hint . on the root of your directory of your project.
+
+- run Stylelint linter
+    - Run npx stylelint "**/*.{css,scss}" on the root of your directory of your project.
+
+- run ESLint linter
+    - Run npx eslint . on the root of your directory of your project.
+
+- run gulp
+    - Run gulp <name-of-task> on the root of your directory of your project.
+
+
 ### Deployment
 
-
-
+To run the project open the downloaded folder (after extraction) then run the "**index.html**" file in your browser.
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Sonickmumba](https://github.com/Sonickmumba)
+- Twitter: [@Sonick](https://twitter.com/MumbaSonick)
+- LinkedIn: [Sonick Mumba](https://www.linkedin.com/in/sonick-m-301557a2/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
