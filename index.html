@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo-div"><a href="./index.html" id="logo">Awesome Books</a></div>
+    <nav>
+      <ul id="nav">
+        <li class="nav-link" id="booklist"><a href="">Book List</a></li>
+        <li class="nav-link"><span class="vertical-line"></span></li>
+        <li class="nav-link" id="addnew"><a href="">Add new</a></li>
+        <li class="nav-link"><span class="vertical-line"></span></li>
+        <li class="nav-link" id="contact-click"><a href="">Contact</a></li>
+      </ul>
+      <div class="menu-nav-mobile">
+        <div id="menu">
+          <i class="bar"></i>
+          <i class="bar"></i>
+          <i class="bar"></i>
+        </div>
+        <ul id="link">
+          <li class="mobile-link" id="one">
+            <a href="">Book List</a>
+          </li>
+          <li class="mobile-link" id="two">
+            <a href="">Add new</a>
+          </li>
+          <li class="mobile-link" id="three">
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="time-header"></section>
+
+  <main id="awesome-book-wrapper">
+    <section class="book-wrapper">
+      <h2 class="book-heading">All Awesome Books</h2>
+      <ul class="library">
+
+      </ul>
+    </section>
+
+    <div class="form-wrapper">
+      <h2 class="form-heading">Add a new book</h2>
+      <form class="form">
+        <input class="input-author" type="text" placeholder="Title">
+        <input class="input-book" type="text" placeholder="Author">
+        <div><button type="submit">Add</button></div>
+      </form>
+      <div class="errormessage">Book already in store</div>
+    </div>
+
+    <div class="contact-wrapper">
+      <h2 class="contact-heading">Contact information</h2>
+      <p>Do you have any questions or you just want to say "Hello"? <br>You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: kingellie.mumba@gmail.com</li>
+        <li>Our phone number: +260973949800</li>
+        <li>Our address: Streetname 22, 84503 city, Country</li>
+      </ul>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <p>Copyright ....</p>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
